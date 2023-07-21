@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ADVENTURE</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <!--Nav Bar-->
+
+        <nav class="navbar">
+            <h1 class="logo">ADVENTURE</h1>
+            <ul class="nav-links">
+                <li class="active"><a href="#"></a>Home</li>
+                <li><a href="#"></a>Tours</li>
+                <li><a href="#"></a>Explore</li>
+                <li><a href="#"></a>About</li>
+                <li class="ctn"><a class ="ctn"href="#"></a>Contact Us</li>
+            </ul>
+            <img src="./img/menu-btn.png" alt="" class="menu">
+        </nav>
+        <header>
+            <div class="header-content">
+                <h2>Explore The Colorful World</h2>
+                <div class="line"></div>
+                <h1>A WONDERFUL GIFT</h1>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </header>
+        <section class="events">
+            <div class="title">
+                <h1>Upcoming Events</h1>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="./img/img1.png" alt="">
+                    <h4>Everest Camp Treck</h4>
+                    <a href="#" class="ctn">Learn More</a>
+                </div>
+                <div class="col">
+                    <img src="./img/img2.png" alt="">
+                    <h4>Walking Holidays</h4>
+                    <a href="#" class="ctn">Learn More</a>
+                </div>
+            </div>
+        </section class = "explore" background-image="./img/bg2.png">
+            <div class="explore-content">
+                <h1>EXPLORE THE WORLD</h1>
+            <p>Adventure is allowing the unexpected to happen to you. Exploration is experiencing what you have not experienced before. How can there be any adventure, any exploration, if you let somebody else – above all, a travel bureau – arrange everything before-hand?</p>
+            <a href="#" class="ctn">Learn More</a>
+
+            </div>
+        <section class="tours">
+            <div class="row">
+                <div class="col content-col">
+                    <h1>UPCOMING TOURS AND DESTINATIONS</h1>
+                    <p>
+                        Andaman Islands
+                        
+                        Visit the Andaman Islands for an action-packed adventurous holiday. The Andaman Islands are one of the best adventurous places in the world. Meet some rare marine creatures like Humpback Parrot Fish and Lionfish while scuba diving and snorkelling. Another interesting underwater activity is sea-walking. You can wear breathable headgear and take a walk on the ocean floor to observe the marine diversity of the Bay of Bengal. Havelock Island is famous for its beautiful sceneries. Kayaking in Havelock Island is a popular activity as it allows you to enjoy the beautiful surroundings. Other activities like canoeing, rafting, parasailing etc. that are popular in most of the adventure places are available here as well.
+                        
+                        Leh
+                        
+                        Leh is one of the most adventurous places in the world. Positioned at an elevation of 3,500 metres, Leh offers the best landscape for adventure activities like mountaineering, white-water rafting and trekking. Biking on the rugged terrains of Leh is a dream come true for all enthusiastic bikers. Trekking is difficult in Leh than in other adventure places, still, if you want to feel the adrenaline pumping in your veins, then you can try the Markha Valley Trek. This valley is famous for its breathtaking surroundings. You can participate in other activities like Snow Leopard trek, Chadar trek, quad biking in Nubra valley, rafting in Zanskar etc.
+                        
+                        Bali
+                        
+                        This island is located in Indonesia and is known for its forested volcanic mountains, beautiful beaches and amazing coral reefs. Like all other adventure places, Bali is also soaked in natural beauty. You can indulge in adventure activities like surfing, canyon tubing and river rafting to experience this beautiful island. Try Snorkelling in Sanur beach and have an exciting time. For amateurs, riding an underwater scooter is a unique way to explore the marine world. You do not require swimming skills for this activity. Don’t miss the bird’s-eye view of the city from the famous Bali swing.
+
+                        Kashmir
+                        
+                        Kashmir is one of the most popular adventurous places in the world. There are many well-known adventure places within Kashmir. Gulmarg, a small town in Kashmir, is a popular skiing destination. Adventurers from all over the world come here to enjoy skiing. Trained professionals are there to assist you in this adventure. Experience the Himalayan rugged terrain while trekking on the Shankaracharya hill and enjoy the beauty of snow-capped mountains. For mountain bikers, Kashmir has a lot to offer. There are 10 mountain trails on the Srinagar-Leh highway. You can also enjoy river rafting in the Lidder River in Pahalgam. All the equipment required for these activities is available for rent in these adventure places.</p>
+
+                        <a href="#" class="ctn">Learn more</a>
+                </div>
+                <div class="col image-col"> 
+                    <div class="img-gallery">
+                        <img src ="img/img3.png">
+                        <img src ="img/img4.png">
+                        <img src ="img/img5.png">
+                        <img src ="img/img6.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script>
+            const menuBtn = document.querySelector('.menu-btn')
+            const navlinks =document.querySelector('.nav-links')
+
+            menuBtn.addEventListener('click',()=> {
+                navlinks.classList.toggle('mobile-menu') 
+            })
+        </script>
+
+    </body>
+</html>
