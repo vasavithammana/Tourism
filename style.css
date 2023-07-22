@@ -180,6 +180,57 @@ p {
     color: #484872;
 }
 
+.about {
+    padding-top: 0;
+    margin-top: 13vmin;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    color: whitesmoke;
+    font-size: 300%
+
+}
+.about::after {
+     content: " ";
+     position: absolute;
+     display: block;
+     left: 45.5%;
+     bottom: 0px;
+     width: 9%;
+     height: 2px;
+     background-color: #fc036b;
+}
+.pabout {
+    text-align: center;
+    color: whitesmoke;
+    position: relative;
+    font-size: 125%;
+}
+.contact {
+    padding-top: 0;
+    margin-top: 13vmin;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    color: black;
+    font-size: 300%
+}
+.contact::after {
+    content: " ";
+    position: absolute;
+    display: block;
+    left: 45.5%;
+    bottom: 0px;
+    width: 9%;
+    height: 2px;
+    background-color: #fc036b;
+}
+.pcontact {
+    text-align: center;
+    color: black;
+    position: relative;
+    font-size: 150%;
+}
 @media only screen and (max-width:850px){
     .menu-btn {
         display: block;
